@@ -59,8 +59,8 @@ public class AuthServerApplication extends WebMvcConfigurerAdapter {
 		@Override
 		public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
 			clients.inMemory()
-			.withClient("concur")
-			.secret("concur")
+			.withClient("nirmal")
+			.secret("nirmal")
 			.authorizedGrantTypes("authorization_code", "refresh_token",
 					"password").scopes("read").autoApprove(true);
 		}
