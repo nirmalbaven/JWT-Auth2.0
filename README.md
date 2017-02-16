@@ -5,7 +5,7 @@ This test project contains following setup:
 
 # How to start
 
-1.Make sure you have maven installed
+1. Make sure you have maven installed
 
 2. Make sure you have java 1.8 installed
 
