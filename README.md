@@ -29,10 +29,15 @@ http://concur:concur@localhost:9000/dkom/oauth/token?redirect_uri=http://localho
 
 {
   "access_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE0ODcyNjgyMTgsInVzZXJfbmFtZSI6ImFkbWluIiwiYXV0aG9yaXRpZXMiOlsiUk9MRV9BRE1JTiIsIlJPTEVfVVNFUiJdLCJqdGkiOiI2NDFiYTg2MC0yOTMyLTQxNWItYTIwMC0wMTFjYWJjZGE5NWQiLCJjbGllbnRfaWQiOiJuaXJtYWwiLCJzY29wZSI6WyJyZWFkIl19.bQK7eQvMVgRwcZaOyVaOUzoelDePyGrbWa6vUNLNOD4",
+  
   "token_type": "bearer",
+  
   "refresh_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX25hbWUiOiJhZG1pbiIsInNjb3BlIjpbInJlYWQiXSwiYXRpIjoiNjQxYmE4NjAtMjkzMi00MTViLWEyMDAtMDExY2FiY2RhOTVkIiwiZXhwIjoxNDg5ODE3MDE4LCJhdXRob3JpdGllcyI6WyJST0xFX0FETUlOIiwiUk9MRV9VU0VSIl0sImp0aSI6IjBkNzRjZDVlLWRmMGEtNDM0MC04OTQxLWVhNTE5NWYyYWMyNiIsImNsaWVudF9pZCI6Im5pcm1hbCJ9.pWDFs17E-LQw4M7TpWcJbCal2hZbtwJZltAzKdqZwIo",
+  
   "expires_in": 43199,
+  
   "scope": "read",
+  
   "jti": "641ba860-2932-415b-a200-011cabcda95d"
 }
 
