@@ -6,8 +6,11 @@ This test project contains following setup:
 # How to start
 
 1.Make sure you have maven installed
+
 2. Make sure you have java 1.8 installed
+
 3. Checkout the source code
+
 4. Run "mvn clean install"
 
 # Start the auth server
@@ -20,9 +23,12 @@ All access tokens can be decoded via http://jwt.io Just copy and insert the "acc
 #Getting access token via POSTMAN
 
 1. Open the post man and set the method as POST 
+
 2. Paste the following the URL in the request url  (make sure the Authorization server is up and running)
 http://concur:concur@localhost:9000/dkom/oauth/token?redirect_uri=http://localhost:9001/dkom/&response_type=code&client_id=nirmal&client_secret=nirmal&username=admin&password=admin&grant_type=password
+
 3. Set the Header Key as Content-Type and value as application/x-www-form-urlencoded
+
 4. Hit the Send Request.
 
 #Sample Response from Autherization Server
